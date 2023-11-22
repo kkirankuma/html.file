@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarMod - Your Ultimate Car Upgrade Destination</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(to right, #f2f7fd, #cfd9e1); /* Light blue gradient */
+            color: #333;
+        }
+
+        header {
+            background: #3498db; /* Dodger blue */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background: #2980b9; /* Darker Dodger blue */
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        section {
+            padding: 40px;
+            background: linear-gradient(to right, #ecf0f1, #bdc3c7), url('nissan.jpg'); /* Light gray gradient */
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            text-align: center;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        section p {
+            color: #777;
+        }
+
+        footer {
+            background: #3498db; /* Dodger blue */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        #home {
+            padding: 100px;
+        }
+
+        #home h2 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        #home p {
+            font-size: 18px;
+            margin-top: 20px;
+            color: #555;
+        }
+
+        #services {
+            padding: 60px;
+        }
+
+        #about {
+            background-color: #ecf0f1; /* Light gray background */
+        }
+
+        #contact {
+            background-color: #d5d8dc; /* Lighter gray background */
+        }
+
+        #store {
+            padding: 60px;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .product-card {
+            width: 300px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .product-card-content {
+            padding: 20px;
+        }
+
+        .product-title {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .product-description {
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CarMod</h1>
+        <p>Your Ultimate Car Upgrade Destination</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#store">Online Store</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to CarMod</h2>
+            <p>Explore our top-notch car modification services and products.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="feature-box">
+                <img src="service1.jpg" alt="Service 1">
+                <div class="feature-box-text">
+                    <h3>Service 1 Title</h3>
+                    <p>Description of Service 1. Explore the best car upgrades for your vehicle.</p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+            <!-- Repeat similar feature boxes for other services -->
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Learn about our passion for cars and commitment to excellence</p>
+            <!-- Add information about the business's story, mission, and team members if relevant -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Get in touch with our team for inquiries and appointments</p>
+            <!-- Add a contact form and business details, including physical address and contact information -->
+        </div>
+    </section>
+
+    <section id="store">
+        <div class="container">
+            <h2>Online Store</h2>
+            <p>Explore our products and make your car stand out on the road.</p>
+
+            <div class="product-container">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="product1.jpg" alt="Product 1">
+                    <div class="product-card-content">
+                        <div class="product-title">Premium Alloy Wheels</div>
+                        <div class="product-description">Enhance your car's look with our top-quality alloy wheels.</div>
+                        <div class="product-price">$499.99</div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="product2.jpg" alt="Product 2">
+                    <div class="product-card-content">
+                        <div class="product-title">Performance Exhaust System</div>
+                        <div class="product-description">Upgrade your car's performance with our advanced exhaust system.</div>
+                        <div class="product-price">$699.99</div>
+                    </div>
+                </div>
+
+               
